@@ -1,2 +1,2 @@
 # openblocksteam.github.io 
-HTML/CSS (and JS free) page for OpenBlocks.
+HTML/CSS (and only 1 line of JS) page for OpenBlocks.
