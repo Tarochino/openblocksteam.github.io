@@ -188,7 +188,7 @@ body {
 }
 
 @media (min-width: 700px) {
-    .drawer-toggle, .toggler-deco {
+    .drawer-toggle, .toggler-deco > div {
         display: none;
     }
 
