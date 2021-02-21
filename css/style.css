@@ -68,6 +68,7 @@ body {
     animation: waves-animation 3s reverse linear infinite;
     opacity: 0.2;
     z-index: -1;
+    transition: opacity 1.5s;
 }
 
 @keyframes waves-animation {
@@ -116,6 +117,11 @@ body {
 
     .drawer-toggle:checked ~ .menu {
         transform: translateY(0);
+    }
+
+    .drawer-toggle:checked ~ .toggler-deco::after {
+        opacity: 0;
+        transition: opacity 0.25s;
     }
 
     .toggler-deco {
