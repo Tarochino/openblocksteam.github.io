@@ -42,7 +42,7 @@ body {
     font-size: 20px;
 }
 
-.top-bar::before,.top-bar::after {
+.top-bar::before,.top-bar::after, .top-bar .toggler-deco::after {
     content: "";
     position: fixed;
     top: 60px;
@@ -60,6 +60,14 @@ body {
     height: 20px;
     animation: waves-animation 6s linear infinite;
     opacity: 0.5;
+}
+
+.top-bar .toggler-deco::after {
+    background-size: 100vw 15px;
+    height: 15px;
+    animation: waves-animation 3s reverse linear infinite;
+    opacity: 0.2;
+    z-index: -1;
 }
 
 @keyframes waves-animation {
