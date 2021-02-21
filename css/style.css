@@ -1,16 +1,16 @@
 @font-face {
     font-family: Jost;
-    src: url(/fonts/Jost/OpenType/Jost-400-Book.otf);
+    src: url(../fonts/Jost/OpenType/Jost-400-Book.otf);
 }
 
 @font-face {
     font-family: JostItalic;
-    src: url(/fonts/Jost/OpenType/Jost-400-BookItalic.otf);
+    src: url(../fonts/Jost/OpenType/Jost-400-BookItalic.otf);
 }
 
 @font-face {
     font-family: Icons;
-    src: url(/fonts/MaterialIconsOutlined-Regular.otf);
+    src: url(../fonts/MaterialIconsOutlined-Regular.otf);
 }
 
 html,body {
@@ -47,7 +47,7 @@ body {
     position: fixed;
     top: 60px;
     left: 0;
-    background-image: url(/images/waves.png);
+    background-image: url(../images/waves.png);
     background-size: 100vw 10px;
     background-repeat: repeat-x;
     width: 100%;
